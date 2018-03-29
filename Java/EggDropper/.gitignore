@@ -1,0 +1,30 @@
+# Project specific files #
+##########################
+/build/*
+/dist/*
+/manifest.mf
+
+# OS generated files #
+######################
+.directory
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Tool specific files #
+#######################
+# vim
+*~
+*.swp
+*.kate-swp
+*.swo
+/nbproject/*
+# Visual Studio Code
+.vscode
+# Sass preprocessor
+.sass-cache/
