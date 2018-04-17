@@ -27,8 +27,6 @@ public class Address {
     @ManyToOne
 	private User user;
 	
-	public Address() {}
-	
     public Address(final User user, final String country, final String state, final String city, final String street, final String zip) {
         this.country = country;
         this.state = state;
