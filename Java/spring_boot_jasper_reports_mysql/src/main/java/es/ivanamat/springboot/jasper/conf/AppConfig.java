@@ -1,4 +1,4 @@
-package net.cloudapi.jasper.conf;
+package es.ivanamat.springboot.jasper.conf;
 
 import javax.sql.DataSource;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;

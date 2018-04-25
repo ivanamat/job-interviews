@@ -1,6 +1,6 @@
-package net.cloudapi.jasper.controller;
+package es.ivanamat.springboot.jasper.controller;
 
-import net.cloudapi.jasper.service.ICarService;
+import es.ivanamat.springboot.jasper.service.ICarService;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,7 +26,7 @@ public class MyController {
     @Autowired
     private ICarService carService;
     
-    @RequestMapping(path = "/file.pdf", method = RequestMethod.GET)
+    @RequestMapping(path = "/report.pdf", method = RequestMethod.GET)
     public ModelAndView report() throws ClassNotFoundException {
         JasperReportsPdfView view = new JasperReportsPdfView();
         view.setUrl("classpath:templates/report.jrxml");

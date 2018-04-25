@@ -1,6 +1,6 @@
-package net.cloudapi.jasper.service;
+package es.ivanamat.springboot.jasper.service;
 
-import net.cloudapi.jasper.bean.Car;
+import es.ivanamat.springboot.jasper.bean.Car;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;

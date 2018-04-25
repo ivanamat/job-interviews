@@ -1,4 +1,4 @@
-package net.cloudapi.jasper.bean;
+package es.ivanamat.springboot.jasper.bean;
 
 public class Car {
     
